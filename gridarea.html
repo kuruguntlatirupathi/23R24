@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .grid{
+            
+            border: 2px solid red;
+            padding:20px;
+            gap:2%;
+            display: grid;
+            grid-template-areas: 
+            'area1 area2 area3'
+            'area1 area5 area6'
+            'area4 area5 area7';
+        }
+            
+           
+        .grid{
+            background-color: aqua;
+            text-align: center;
+            font-size: 25px;
+            font-weight: bold;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .grid1{
+            background-color: aqua;
+            /* height: 90px;
+            width:115px; */
+            grid-area: area1;
+            background-image: url(./ASSETS/IMAGES/bonding.jpg);
+            background-size: cover;
+            background-position:center ;
+        }
+        .grid2{
+            background-color: green;
+            height: 90px;
+            width:115px;
+            background-image: url(./ASSETS/IMAGES/ashoka.webp);
+            background-position: center;
+            background-size: cover;
+            grid-area: area2;
+            
+        }
+        .grid3{
+            background-color: pink;
+            height:90px;
+            width: 115px;
+            background-image: url(./ASSETS/IMAGES/csk.jpg);
+            background-position: center;
+            background-size: cover;
+            grid-area: area3;
+        }
+        .grid4{
+            background-color: skyblue;
+           height:90px;
+           width:115px;
+            background-image: url(./ASSETS/IMAGES/KTR.jpg);
+            background-position: center;
+            background-size: cover;
+            grid-area: area4;
+        }
+        .grid5{
+            background-color: orangered;
+            /*height:90px;
+            width:115px;*/
+            background-image:url(./ASSETS/IMAGES/dd.jpg);
+            background-position: center;
+            background-size: cover;
+            grid-area: area5;
+        }
+        .grid6{
+            background-color: orange;
+            height: 90px;
+            width:115px;
+            background-image: url(./ASSETS/IMAGES/Randy.jpg);
+            background-position: center;
+            background-size: cover;
+            grid-area: area6;
+        }
+        .grid7{
+            height: 90px;
+            width:115px;
+            background-image: url(./ASSETS/IMAGES/wwe.jpg);
+            background-position: center;
+            background-size: cover;
+            background-color: violet;
+            grid-area: area7;
+        }
+        
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="grid">
+        <div class="grid grid1"></div>
+        <div class="grid grid2"></div>
+        <div  class="grid grid3"></div>
+        <div  class="grid grid4"></div>
+        <div   class="grid grid5"></div>
+        <div  class="grid grid6"></div>
+        <div  class="grid grid7"></div>
+       
+    </div>
+</body>
+</html>
